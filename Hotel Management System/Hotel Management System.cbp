@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Hotel Management System" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Hotel Management System" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Hotel Management System" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Cancel reservation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cancel reservation.h" />
+		<Unit filename="Hotel menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Hotel menu.h" />
+		<Unit filename="Load reservation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Load reservation.h" />
+		<Unit filename="Quary.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Quary.h" />
+		<Unit filename="Report.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Report.h" />
+		<Unit filename="check.in.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="check.in.h" />
+		<Unit filename="checkout.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="checkout.h" />
+		<Unit filename="edit reservation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="edit reservation.h" />
+		<Unit filename="enterdate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="enterdate.h" />
+		<Unit filename="login.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="login.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="print reservations.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="print reservations.h" />
+		<Unit filename="reservation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="reservation.h" />
+		<Unit filename="sortdate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sortdate.h" />
+		<Unit filename="tracking room availability.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tracking room availability.h" />
+		<Unit filename="view customer details.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="view customer details.h" />
+		<Unit filename="write reservation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="write reservation.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
